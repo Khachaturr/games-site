@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    
+   display: flex;
+   flex-direction: column;
+    background: url(../images/1.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 1500px;
+     background-size: cover;
+     
+    
+}
+header{
+    padding: 60px;
+}
+h1{
+    color: white;
+    margin-left: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    left: 20%;
+    width: 60%;
+   height: 80%;
+
+    
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 430px;
+    
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    
+}
+.ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 50%;
+    
+    background-color: rgba(240, 48, 48, 0.5);
+    margin-top: -15px;
+    padding: 10px;
+}
+.ul> li{
+    display: inline-block;
+    
+    
+}
+.ul> li> a{
+    color: white; 
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: small;
+}
+.ul1{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    background-color: rgba(240, 48, 48, 0.5);
+    width: 40%;
+    padding: 10px;
+}
+.ul1>li{
+    display: inline-block;
+}
+.ul1>li>a{
+    color: white; 
+    font-size: small;
+    text-decoration: none;
+    
+
+}
+.div2{
+    background-color: red;
+    width: 150px;
+}
+.div2, a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    margin-top: 10px;
+ 
+}
+.colum1{
+   display: flex;
+   flex-direction: column;
+    width: 15%;
+    padding: 10px;
+   
+}
+.colum1>p{
+    text-align: center;
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 45%;
+    
+
+}
+.div4>a{
+    color: black;
+}
+.div4:first-child> a{
+    color: rgb(255, 255, 255);
+}
+.div5{
+    display: flex;
+    
+    justify-content: flex-end;
+}
+.div5 >a{
+    font-weight: bold;
+
+}
+.div6{
+    display: flex;
+    flex-direction: row;
+    
+}
+.div7{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.div8{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 25px;
+   
+}
+.div8>p{ 
+    font-size: smaller;
+    
+
+
+}
+.div8>p>a{
+    position: relative;
+    left:150px;
+    
+}
+.div9{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    width: 400px;
+    
+    margin-right: 25px;
+    
+}
+.div9>a{
+    color: rgb(124, 41, 41);
+    padding: 10px;
+}
+.div9>p{
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
